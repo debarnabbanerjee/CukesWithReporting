@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing Login",
+        "description": "",
+        "id": "login;testing-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65546779,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open chrome",
+            "match": {
+              "location": "steps.i_open_chrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28273,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the base Url",
+            "match": {
+              "location": "steps.i_navigate_to_the_base_Url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24674,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter userName and Password",
+            "match": {
+              "location": "steps.i_enter_userName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28787,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Sigin Link",
+            "match": {
+              "location": "steps.i_click_on_Sigin_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
